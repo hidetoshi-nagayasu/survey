@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ROBIN</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main" class="main">
+        <section class="section">
+            <div class="parts">
+                <label for="name" class="title">Your Name</label>
+                <input type="text" id="name" autocomplete="off">
+                <p>Press TAB key...</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="parts">
+                <label for="email"class="title">Email</label>
+                <input type="text" id="email" class="email" autocomplete="off">
+                <p>Press TAB key...</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="parts">
+                <label for="preference"class="title">Your Preference</label>
+                <div class="item-one">
+                    <label for="check1" class="input-flex">
+                        <input type="checkbox" name="preference" id="check1" val="1">
+                        <span class="checkbox-text">Economy</span>
+                    </label>
+                </div>
+                <div class="item-one">
+                    <label for="check2" class="input-flex">
+                        <input type="checkbox" name="preference" id="check2" val="1">
+                        <span class="checkbox-text">Technology</span>
+                    </label>
+                </div>
+                <div class="item-one">
+                    <label for="check3" class="input-flex">
+                        <input type="checkbox" name="preference" id="check3" val="1">
+                        <span class="checkbox-text">Art</span>
+                    </label>
+                </div>
+                <div class="item-one">
+                    <label for="check4" class="input-flex">
+                        <input type="checkbox" name="preference" id="check4" val="1">
+                        <span class="checkbox-text">Finance</span>
+                    </label>
+                </div>
+                <div class="item-one">
+                    <label for="check5" class="input-flex">
+                        <input type="checkbox" name="preference" id="check5" val="1">
+                        <span class="checkbox-text">Sports</span>
+                    </label>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="parts">
+                <button type="button" class="submit">Submit</button>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
